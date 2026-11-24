@@ -9,20 +9,29 @@ const base = import.meta.env.BASE_URL;
 // Las rutas se escriben sin la barra inicial: se les añade BASE_URL al renderizar.
 const articulos = [
   {
-    title: 'Cultura del Renacimienteo',
+    title: 'Cultura del Renacimiento',
     href: 'blog/florencia/',
-    description: 'Visitas con guia',
+    description:
+      'Arte y arquitectura del Renacimiento en Florencia: el Domo, la Galería Uffizi y la Academia.',
   },
   {
     title: 'Cultura del Barroco',
     href: 'blog/roma/',
-    description: 'Visitas con y sin guia',
+    description:
+      'Historia y cultura del Barroco en Roma: el Foro, el Coliseo y los Museos Vaticanos.',
   },
 ];
 ---
 
-<BaseLayout title="Blog | TODO: nombre de la empresa" description="TODO: meta descripción de la página del blog">
-  <h1>TODO: título del blog</h1>
+<BaseLayout
+  title="Blog de viajes a Italia | Turismo Italia"
+  description="Artículos sobre Roma, Florencia y las principales ciudades italianas: arte, cultura, rutas y visitas guiadas."
+>
+  <h1>Blog de viajes a Italia</h1>
+  <p>
+    Ideas, rutas y recomendaciones para descubrir el patrimonio artístico y
+    cultural de las ciudades italianas.
+  </p>
 
   <ul>
     {articulos.map((articulo) => (

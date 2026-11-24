@@ -41,12 +41,12 @@ La web se abre en `http://localhost:4321`.
 - `src/pages/index.astro`: página de inicio.
 - `src/pages/servicios.astro`: página de información.
 - `src/pages/blog/index.astro`: índice automático del blog; edita el array `articulos` con el título, enlace y resumen de cada entrada. Si cambias un título, actualízalo también aquí.
-- `src/pages/blog/articulo-1.astro` y `articulo-2.astro`: los dos artículos (enlazan de vuelta al índice).
+- `src/pages/blog/roma.astro` y `src/pages/blog/florencia.astro`: los dos artículos (enlazan de vuelta al índice).
 - `src/styles/global.css`: estilos básicos.
-- `public/images/ejemplo.svg`: imagen de ejemplo (sustitúyela por una de tu temática).
+- `public/images/`: imágenes de Roma y Florencia usadas en la portada, además de `ejemplo.svg`.
 - `.github/workflows/deploy.yml`: configuración de GitHub Actions.
 
-Busca los comentarios `TODO:` y sustitúyelos por tus propios contenidos.
+Sustituye los textos, las imágenes y los datos de contacto por los de tu propio proyecto.
 
 ## Recordatorio antes de empezar
 
